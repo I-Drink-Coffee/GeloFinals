@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/username_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/user_type_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User" />
+
+        <RadioButton
+            android:id="@+id/radio_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:layout_marginStart="16dp" />
+
+        <RadioButton
+            android:id="@+id/radio_super_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super Admin"
+            android:layout_marginStart="16dp" />
+    </RadioGroup>
+</LinearLayout>

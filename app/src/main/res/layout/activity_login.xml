@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/devx" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devxotle"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="0dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/username_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white" />
+</LinearLayout>

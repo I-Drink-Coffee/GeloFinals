@@ -1,0 +1,68 @@
+<!-- activity_admin.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Users"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update User"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete User"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_text" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/admin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
